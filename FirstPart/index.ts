@@ -13,7 +13,7 @@ const skillsThree: readonly [number, string] = [1, 'Dev']
 // enums
 
 enum StatusCode {
-    SUCCESS,
+    SUCCESS = 1,
     IN_PROCESS,
     FALIED
 }
