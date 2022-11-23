@@ -9,7 +9,11 @@ const userTemp: User = {
     password: '1'
 }
 
-function multiply(first: number, second: number){
+function multiply(first: number, second?: number) :number{
+    if (!second){
+        return first * first
+    }
+
     return first * second
 }
 // 3min
